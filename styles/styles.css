@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: linear-gradient(to left, rgb(230, 12, 121), rgb(223, 11, 170));
+}
+.body .header {
+  height: 60px;
+}
+.body .header .nav-bar {
+  height: 50px;
+}
+.body .header .nav-bar .ul-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.body .header .nav-bar .ul-container .li-nav {
+  height: 20px;
+  list-style: none;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.body .header .nav-bar .ul-container .li-nav .nav-text {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+.body .section-container {
+  height: 50rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body .section-container .bg-card {
+  background-color: rgba(204, 0, 255, 0.562);
+  height: 40rem;
+  width: 40rem;
+  transform: rotate(45deg);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body .section-container .bg-card .form-container {
+  background-color: white;
+  background: linear-gradient(to right, rgb(233, 58, 195), rgb(196, 143, 247));
+  height: fit-content;
+  width: 30rem;
+  transform: rotate(-45deg);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1.3rem;
+  box-shadow: 1px 2px 114px -23px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 1px 2px 114px -23px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 1px 2px 114px -23px rgba(0, 0, 0, 0.71);
+}
+.body .section-container .bg-card .form-container .form-title {
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.body .section-container .bg-card .form-container .panda-logo {
+  height: 11rem;
+  width: 12rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.body .section-container .bg-card .form-container .form-flex {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  width: 80%;
+}
+.body .section-container .bg-card .form-container .form-flex .label-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.body .section-container .bg-card .form-container .form-flex .label-container .label-text {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.body .section-container .bg-card .form-container .form-flex .label-container .label-input {
+  width: 100%;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+.body .section-container .bg-card .form-container .form-flex .btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.body .section-container .bg-card .form-container .form-flex .btn-container .form-button {
+  background-color: rgb(255, 255, 255);
+  height: 3rem;
+  width: 50%;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.body .section-container .bg-card .form-container .form-flex .btn-container .form-button:hover {
+  background-color: rgb(187, 35, 149);
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

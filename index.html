@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Registrarse</title>
+</head>
+<body class="body">
+    
+    <header class="header">
+            
+        <nav class="nav-bar">
+            
+            <ul class="ul-container">
+                <li class="li-nav"><a href="#" class="nav-text">Iniciar Sesión</a></li>
+                <li class="li-nav"><a href="#" class="nav-text">Registrarse</a></li>                
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    <section class="section-container">
+
+        <div class="bg-card">
+
+            <div class="form-container">
+                <img class="panda-logo" src="./assets/pandalogo.png" alt="">
+                <h1 class="form-title">Registrarse</h1>
+                <form class="form-flex" action="" method="">
+                    <div class="label-container">
+                        <label class="label-text" for="nombre">Nombre:</label>
+                        <input class="label-input" placeholder="Escribe tu nombre..." type="text" name="nombre" id="nombre" required>
+                    </div>
+
+                    <div class="label-container">
+                        <label class="label-text" for="apellido">Apellido:</label>
+                        <input class="label-input" placeholder="Escribe tu apellido..." type="text" name="apellido" id="apellido" required>
+                    </div>
+                    
+                    
+                    <div class="label-container">
+                        <label class="label-text" for="usuario">Nombre de Usuario:</label>
+                        <input class="label-input" placeholder="Escribe tu nombre de usuario..." type="text" name="usuario" id="usuario" required>
+                    </div>
+                    
+                    
+                    <div class="label-container">
+                        <label class="label-text" for="contrasena">Contraseña:</label>
+                        <input class="label-input" placeholder="Elige tu contraseña..." type="password" name="contrasena" id="contrasena" required>
+                    </div>
+                    
+                    
+                    <div class="label-container">
+                        <label class="label-text" for="confirmar_contrasena">Confirmar Contraseña:</label>
+                        <input class="label-input" placeholder="Escribe tu contraseña nuevamente..." type="password" name="confirmar_contrasena" id="confirmar_contrasena" required>
+                    </div>
+                    
+                    
+                    <div class="label-container">
+                        <label class="label-text" for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                        <input class="label-input" type="date" name="fecha_nacimiento" id="fecha_nacimiento" required>
+                    </div>
+                    
+                    <div class="btn-container">
+                        <input class="form-button" type="submit" value="Registrarse">
+                    </div>
+                    
+                </form>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
